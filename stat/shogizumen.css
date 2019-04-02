@@ -1,0 +1,69 @@
+/* * { font-family : serif; } */
+pre {
+	font-family: Osaka-mono, "MS Gothic", monospace;
+	font-size: 13px;
+}
+code { 
+	font-family: Osaka-mono, "MS Gothic", monospace;
+}
+.zumen {
+	display:inline-block;
+	width: 264px;
+	color: black;
+	background-color: white;
+	line-height:2;
+	vertical-align:top;
+	font-family : '游明朝','YuMincho','ヒラギノ明朝 ProN W3','Hiragino Mincho ProN','ＭＳ Ｐ明朝','MS Mincho',serif;
+	border: 6px solid #fff;
+	box-shadow: 1px 4px 10px rgba(51, 51, 51, 0.2);
+}
+.zumen figcaption {
+	font-size:14.5px;
+	width:100%;
+	white-space: nowrap;
+	padding-top: 2px;
+	overflow: hidden;
+	text-align: center;
+	text-indent: -10px;
+	text-overflow: ellipsis;
+}
+}
+pre.shogizumen {
+	width: 240px; /* +24px */
+	margin:0;
+	padding:0;
+	padding-left: 24px;
+	font-family: Osaka-mono, "MS Gothic", monospace;
+	font-size: 13px;
+	line-height: 1; 
+
+	min-height: 220px;
+}
+
+/*.zumen svg { font-family : '游明朝','YuMincho','ヒラギノ明朝 ProN W3','Hiragino Mincho ProN','ＭＳ Ｐ明朝','MS Mincho',serif; } */
+/* font-family : 'Verdana','游ゴシック','YuGothic','ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN','ＭＳ Ｐゴシック','MS Gothic',sans-serif;
+*/
+/*svg { font-family : serif; }*/
+.szLastMove { font-weight : bold; }
+.zumen .szLastMove { font-family : '游ゴシック','YuGothic','ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN','ＭＳ Ｐゴシック','MS Gothic',sans-serif; 
+font-weight : bold; 
+}
+/*
+.gotick {
+	font-family: '游ゴシック','YuGothic','ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN','ＭＳ Ｐゴシック','MS Gothic',sans-serif;
+	color: pink;
+	background-color: #eee;
+}
+.gotick .szLastMove {
+font-family : serif;
+	font-weight : bold;
+	color: red;
+}
+*/
+.hdiv:after {
+ content: ".";   
+  display: block;   
+  height: 0;   
+  clear: both;   
+  visibility: hidden;  
+}
